@@ -1,0 +1,111 @@
+[2/5] Resolving packages...
+warning react-scripts > webpack-dev-server > chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+warning react-scripts > webpack-dev-server > chokidar > fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+warning react-scripts > workbox-webpack-plugin > workbox-build > @hapi/joi@15.1.1: Switch to 'npm install joi'
+warning react-scripts > workbox-webpack-plugin > workbox-build > rollup-plugin-babel@4.4.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-babel.
+warning react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+warning react-scripts > resolve-url-loader > rework > css > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning react-scripts > webpack > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning react-scripts > workbox-webpack-plugin > workbox-build > @hapi/joi > @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+warning react-scripts > workbox-webpack-plugin > workbox-build > @hapi/joi > @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+warning react-scripts > workbox-webpack-plugin > workbox-build > @hapi/joi > @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+warning react-scripts > workbox-webpack-plugin > workbox-build > @hapi/joi > @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+warning react-scripts > workbox-webpack-plugin > workbox-build > @hapi/joi > @hapi/topo > @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+warning react-scripts > webpack > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+warning react-scripts > workbox-webpack-plugin > workbox-build > strip-comments > babel-plugin-transform-object-rest-spread > babel-runtime > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning react-scripts > jest > @jest/core > jest-config > jest-environment-jsdom > jsdom > request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+warning react-scripts > jest > @jest/core > jest-config > jest-environment-jsdom > jsdom > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning react-scripts > jest > @jest/core > jest-config > jest-environment-jsdom > jsdom > request > har-validator@5.1.5: this library is no longer supported
+[3/5] Fetching packages...
+info fsevents@2.2.1: The platform "linux" is incompatible with this module.
+info "fsevents@2.2.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+[4/5] Linking dependencies...
+warning " > @babel/plugin-syntax-jsx@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/plugin-transform-runtime@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/preset-env@7.12.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/helper-compilation-targets@7.12.5" has unmet peer dependency "@babel/core@^7.0.0".
+warning "@babel/preset-env > @babel/plugin-proposal-dynamic-import@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-async-generator-functions@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-export-namespace-from@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-nullish-coalescing-operator@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-optional-catch-binding@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-object-rest-spread@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-optional-chaining@7.12.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-private-methods@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-unicode-property-regex@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-async-generators@7.8.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-numeric-separator@7.12.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-class-properties@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-logical-assignment-operators@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-json-strings@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-numeric-separator@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-optional-catch-binding@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-top-level-await@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-export-namespace-from@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-async-to-generator@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-arrow-functions@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-block-scoped-functions@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-class-properties@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-classes@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-destructuring@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-duplicate-keys@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-dotall-regex@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-for-of@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-function-name@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-literals@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-syntax-object-rest-spread@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-exponentiation-operator@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-member-expression-literals@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-modules-amd@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-modules-systemjs@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-named-capturing-groups-regex@7.12.1" has unmet peer dependency "@babel/core@^7.0.0".
+warning "@babel/preset-env > @babel/plugin-transform-modules-umd@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-new-target@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-object-super@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-computed-properties@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-property-literals@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-regenerator@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-parameters@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-block-scoping@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-shorthand-properties@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-reserved-words@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-spread@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-template-literals@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-sticky-regex@7.12.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-typeof-symbol@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-unicode-escapes@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/preset-modules@0.1.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-transform-unicode-regex@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin@7.12.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "@babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin@7.12.1" has unmet peer dependency "@babel/core@^7.0.0".
+warning "@babel/preset-env > @babel/plugin-transform-modules-commonjs@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-logical-assignment-operators@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-env > @babel/plugin-proposal-json-strings@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/preset-flow@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-flow > @babel/plugin-transform-flow-strip-types@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-flow > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/preset-react@7.12.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-jsx@7.12.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-jsx-self@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-pure-annotations@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-jsx-source@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-display-name@7.12.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@babel/preset-react > @babel/plugin-transform-react-jsx-development@7.12.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @testing-library/user-event@12.2.2" has unmet peer dependency "@testing-library/dom@>=7.21.4".
+warning " > eslint-plugin-react@7.21.5" has unmet peer dependency "eslint@^3 || ^4 || ^5 || ^6 || ^7".
+warning " > eslint-plugin-jsx-a11y@6.4.1" has unmet peer dependency "eslint@^3 || ^4 || ^5 || ^6 || ^7".
+warning " > eslint-plugin-import@2.22.1" has unmet peer dependency "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0".
+warning "react-scripts > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning " > styled-components@5.2.1" has unmet peer dependency "react-is@>= 16.8.0".
+warning " > eslint-config-airbnb@18.2.1" has unmet peer dependency "eslint@^5.16.0 || ^6.8.0 || ^7.2.0".
+warning " > eslint-config-airbnb@18.2.1" has unmet peer dependency "eslint-plugin-react-hooks@^4 || ^3 || ^2.3.0 || ^1.7.0".
+warning "eslint-config-airbnb > eslint-config-airbnb-base@14.2.1" has unmet peer dependency "eslint@^5.16.0 || ^6.8.0 || ^7.2.0".
+warning " > eslint-config-prettier@6.15.0" has unmet peer dependency "eslint@>=3.14.1".
+warning " > eslint-plugin-prettier@3.1.4" has unmet peer dependency "eslint@>=5.0.0".

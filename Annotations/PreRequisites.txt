@@ -1,0 +1,8 @@
+PreRequisites
+- git
+	- git clone https://github.com/andrereges/webmotorsfront.git
+- docker
+- docker-compose
+
+
+
