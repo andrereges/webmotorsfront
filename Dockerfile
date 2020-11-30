@@ -4,11 +4,7 @@ WORKDIR /usr/app
 
 COPY package.json yarn.lock ./
 
-VOLUME . /usr/app
-
 RUN yarn
-
-RUN yarn build
 
 COPY . .
 
