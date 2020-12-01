@@ -1,6 +1,6 @@
 name: Test
 
-on: 
+on:
   push:
     branches:
       - master
@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     name: Test code
-    runs-on: ubuntu-latest    
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -27,11 +27,9 @@ jobs:
           node-version: 12.x
 
       - name: Run Installation Dependencies
-        working-directory: ./webmotorsfront
         run: yarn
 
       - name: Run Jest Tests
         run: yarn test --watchAll=false
-        working-directory: ./webmotorsfront
         env:
           CI: true
