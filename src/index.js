@@ -1,7 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createGlobalStyle } from 'styled-components';
+import * as Sentry from '@sentry/react';
+import { Integrations } from '@sentry/tracing';
 import App from './App';
+
+const Sentry = require("@sentry/node");
+// or use es6 import statements
+// import * as Sentry from '@sentry/node';
+
+const Tracing = require("@sentry/tracing");
+// or use es6 import statements
+// import * as Tracing from '@sentry/tracing';
+
+Sentry.init({
+  dsn: "https://33996f4232b74728a61fb6d661c2386d@o483879.ingest.sentry.io/5538471",
+
+  // We recommend adjusting this value in production, or using tracesSampler
+  // for finer control
+  tracesSampleRate: 1.0,
+});
+
+const transaction = Sentry.startTransaction({
+  op: "test",
+  name: "My First Test Transaction",
+});
+
+setTimeout(() => {
+  try {
+    foo();
+  } catch (e) {
+    Sentry.captureException(e);
+  } finally {
+    transaction.finish();
+  }
+}, 99);
 
 export const GlobalStyles = createGlobalStyle`
   *{
