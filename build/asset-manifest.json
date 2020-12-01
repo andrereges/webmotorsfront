@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.7e183df5.chunk.js",
-    "main.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.7e183df5.chunk.js.map",
+    "main.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.1795910d.chunk.js",
+    "main.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.1795910d.chunk.js.map",
     "runtime-main.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/runtime-main.2ff4fa81.js",
     "runtime-main.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/runtime-main.2ff4fa81.js.map",
     "static/js/2.a8af4a81.chunk.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/2.a8af4a81.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.2ff4fa81.js",
     "static/js/2.a8af4a81.chunk.js",
-    "static/js/main.7e183df5.chunk.js"
+    "static/js/main.1795910d.chunk.js"
   ]
 }

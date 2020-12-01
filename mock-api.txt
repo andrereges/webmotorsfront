@@ -1,0 +1,17 @@
+[
+  {
+    "Vehicle": {
+      "Color": "Azul",
+      "ID": "Azul",
+      "Image": "http://desafioonline.webmotors.com.br/content/img/01.jpg",
+      "KM": "0",
+      "Make": "Honda",
+      "Model": "City",
+      "Price": "59000,00",
+      "Version": "2.0 EXL 4X4 16V GASOLINA 4P AUTOMÁTICO",
+      "YearFab": "2017",
+      "YearModel": "2018"
+    }
+  }
+]
+
