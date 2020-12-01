@@ -76,7 +76,7 @@ function Components({ makes }) {
               </SearchAdvanced>
               <Row>
                 <ClearFilter>Limpar filtros</ClearFilter>
-                <ViewOferButton onClick={showAutos}>VER OFERTAS</ViewOferButton>
+                <ViewOferButton onClick={showAutos}>VER OFERTAS AGORA</ViewOferButton>
               </Row>
             </Row>
           </FieldsContain>
