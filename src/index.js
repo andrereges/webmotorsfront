@@ -5,9 +5,6 @@ import * as Sentry from '@sentry/react';
 import { Integrations } from '@sentry/tracing';
 import App from './App';
 
-
-Sentry.init({ dsn: "https://33996f4232b74728a61fb6d661c2386d@o483879.ingest.sentry.io/5538471" });
-
 Sentry.init({
   dsn: 'https://1234da4d055e491da25c5e138166eff9@o483879.ingest.sentry.io/5540831',
   integrations: [
@@ -20,13 +17,13 @@ Sentry.init({
 });
 
 const transaction = Sentry.startTransaction({
-  op: "test",
-  name: "My First Test Transaction",
+  op: 'test',
+  name: 'My First Test Transaction',
 });
 
 setTimeout(() => {
   try {
-    foo();
+    console.log('test Exception');
   } catch (e) {
     Sentry.captureException(e);
   } finally {
