@@ -19,6 +19,6 @@
     docker_image_name: "node"
     docker_image_tag: "12-alpine"
     application_name: "webmotorsfront"
-    integration_hash: "6e05cf04-43a1-42d2-b5dc-5802b55bc830"
+    integration_hash: "5fc8053801dda31446149020"
     use_custom_gitignore: false
     isolated: true
