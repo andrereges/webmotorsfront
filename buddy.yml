@@ -2,6 +2,7 @@
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "develop"
   actions:
+
   - action: "Test App"
     type: "BUILD"
     working_directory: "/usr/app"
@@ -13,3 +14,13 @@
     - "yarn test --watchAll=false"
     setup_commands:
     - "yarn install"
+
+  - action: "Deploy to HEROKU"
+    type: "HEROKU"
+    working_directory: "/usr/app"
+    docker_image_name: "node"
+    docker_image_tag: "12-alpine"
+    application_name: "webmotorsfront"
+    integration_hash: "6e05cf04-43a1-42d2-b5dc-5802b55bc830"
+    use_custom_gitignore: false
+    isolated: true
