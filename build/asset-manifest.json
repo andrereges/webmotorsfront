@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.01fb555a.chunk.js",
-    "main.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.01fb555a.chunk.js.map",
+    "main.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.cae26ca6.chunk.js",
+    "main.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/main.cae26ca6.chunk.js.map",
     "runtime-main.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/runtime-main.2ff4fa81.js",
     "runtime-main.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/runtime-main.2ff4fa81.js.map",
-    "static/js/2.391977a7.chunk.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/2.391977a7.chunk.js",
-    "static/js/2.391977a7.chunk.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/2.391977a7.chunk.js.map",
+    "static/js/2.a1804de6.chunk.js": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/2.a1804de6.chunk.js",
+    "static/js/2.a1804de6.chunk.js.map": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/2.a1804de6.chunk.js.map",
     "index.html": "/WebMotorsFrontEnd/webmotorsfront/build/index.html",
-    "static/js/2.391977a7.chunk.js.LICENSE.txt": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/2.391977a7.chunk.js.LICENSE.txt"
+    "static/js/2.a1804de6.chunk.js.LICENSE.txt": "/WebMotorsFrontEnd/webmotorsfront/build/static/js/2.a1804de6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ff4fa81.js",
-    "static/js/2.391977a7.chunk.js",
-    "static/js/main.01fb555a.chunk.js"
+    "static/js/2.a1804de6.chunk.js",
+    "static/js/main.cae26ca6.chunk.js"
   ]
 }

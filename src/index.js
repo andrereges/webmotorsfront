@@ -16,20 +16,20 @@ Sentry.init({
   tracesSampleRate: 1.0,
 });
 
-const transaction = Sentry.startTransaction({
-  op: 'test',
-  name: 'My First Test Transaction',
-});
+// const transaction = Sentry.startTransaction({
+//   op: 'test',
+//   name: 'My First Test Transaction',
+// });
 
-setTimeout(() => {
-  try {
-    console.log('test Exception');
-  } catch (e) {
-    Sentry.captureException(e);
-  } finally {
-    transaction.finish();
-  }
-}, 99);
+// setTimeout(() => {
+//   try {
+//     console.log('test Exception');
+//   } catch (e) {
+//     Sentry.captureException(e);
+//   } finally {
+//     transaction.finish();
+//   }
+// }, 99);
 
 export const GlobalStyles = createGlobalStyle`
   *{
