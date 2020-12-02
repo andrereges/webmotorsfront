@@ -8,7 +8,6 @@
     docker_image_name: "node"
     docker_image_tag: "12-alpine"
     execute_commands:
-    - "cp package.json yarn.lock ./"
     - "yarn install"
     - "yarn build"
     - "yarn test --watchAll=false"
