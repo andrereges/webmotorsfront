@@ -13,4 +13,4 @@
     - "yarn build"
     - "yarn test --watchAll=false"
     setup_commands:
-    - "yarn install -g gulp grunt-cli"
+    - "yarn install"
