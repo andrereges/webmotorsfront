@@ -1,0 +1,16 @@
+- pipeline: "build server"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "develop"
+  actions:
+  - action: "Execute: yarn test"
+    type: "BUILD"
+    working_directory: "/usr/app"
+    docker_image_name: "node"
+    docker_image_tag: "12-alpine"
+    execute_commands:
+    - "cp package.json yarn.lock ./"
+    - "yarn install"
+    - "yarn build"
+    - "yarn test --watchAll=false"
+    setup_commands:
+    - "yarn install -g gulp grunt-cli"
