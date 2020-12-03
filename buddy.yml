@@ -2,14 +2,34 @@
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "develop"
   actions:
-  - action: "Test App"
+  - action: "Build with Sonarqube"
+    type: "BUILD"
+    working_directory: "/buddy/webmotorsfront"
+    docker_image_name: "ringcentral/web-tools"
+    docker_image_tag: "alpine"
+    execute_commands:
+    - "yarn install"
+    - "yarn test --watchAll=false --coverage -- -Dsonar.login=$SONAR_LOGIN \\"
+    - " -Dsonar.host.url=$SONAR_HOST_URL \\"
+    - " -Dsonar.links.homepage=$SONAR_LINKS_HOMEPAGE \\"
+    - " -Dsonar.links.ci=$SONAR_LINKS_CI -Dsonar.links.scm=$SONAR_LINKS_SCM"
+    cached_dirs:
+    - "/buddy/sonar/.scannerwork"
+    - "/root/.sonar/cache"
+    volume_mappings:
+    - "/buddy/webmotorsfront:/buddy/webmotorsfront"
+    trigger_condition: "ALWAYS"
+    shell: "BASH"
+    variables:
+    - key: "SONAR_TOKEN"
+      value: "9c9b19e51f3ebaf8ca93b39a2c370314710516f3"
+  - action: "Test"
     type: "BUILD"
     working_directory: "/usr/app"
     docker_image_name: "node"
     docker_image_tag: "12-alpine"
     execute_commands:
     - "yarn install"
-    - "yarn build"
     - "yarn test --watchAll=false"
     setup_commands:
     - "yarn install"
