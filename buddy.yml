@@ -19,3 +19,11 @@
     integration_hash: "5fc8053801dda31446149020"
     use_custom_gitignore: false
     isolated: true
+  - action: "Notification by e-mail"
+    type: "EMAIL"
+    title: "$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID"
+    from_name: "Manager Project DevOps"
+    content: "Your pipeline has been successfully executed."
+    send_as_html: true
+    recipients: "andreriggs90@gmail.com"
+    trigger_condition: "ALWAYS"

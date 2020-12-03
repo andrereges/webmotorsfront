@@ -77,6 +77,7 @@ function Components({ makes }) {
               <Row>
                 <ClearFilter>Limpar filtros</ClearFilter>
                 <ViewOferButton onClick={showAutos}>VER OFERTAS</ViewOferButton>
+                <ViewOferButton onClick={methodDoesNotExist}>SENTRY TEST</ViewOferButton>
               </Row>
             </Row>
           </FieldsContain>
