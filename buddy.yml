@@ -9,10 +9,8 @@
     docker_image_tag: "alpine"
     execute_commands:
     - "yarn install"
-    - "yarn test --watchAll=false --coverage -- -Dsonar.login=$SONAR_LOGIN \\"
-    - " -Dsonar.host.url=$SONAR_HOST_URL \\"
-    - " -Dsonar.links.homepage=$SONAR_LINKS_HOMEPAGE \\"
-    - " -Dsonar.links.ci=$SONAR_LINKS_CI -Dsonar.links.scm=$SONAR_LINKS_SCM"
+    - "yarn test --watchAll=false --coverage -- -Dsonar.login=$SONAR_TOKEN \\"
+    - " -Dsonar.projectKey=$SONAR_PROJECT_KEY  -Dsonar.organization=$SONAR_ORGANIZATION"
     cached_dirs:
     - "/buddy/sonar/.scannerwork"
     - "/root/.sonar/cache"
@@ -21,18 +19,12 @@
     trigger_condition: "ALWAYS"
     shell: "BASH"
     variables:
+    - key: "SONAR_ORGANIZATION"
+      value: "andrereges"
+    - key: "SONAR_PROJECT_KEY"
+      value: "andrereges_webmotorsfront"
     - key: "SONAR_TOKEN"
       value: "9c9b19e51f3ebaf8ca93b39a2c370314710516f3"
-  - action: "Test"
-    type: "BUILD"
-    working_directory: "/usr/app"
-    docker_image_name: "node"
-    docker_image_tag: "12-alpine"
-    execute_commands:
-    - "yarn install"
-    - "yarn test --watchAll=false"
-    setup_commands:
-    - "yarn install"
   - action: "Deploy to HEROKU"
     type: "HEROKU"
     application_name: "webmotorsfront"
