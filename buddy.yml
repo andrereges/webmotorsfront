@@ -9,7 +9,7 @@
     docker_image_tag: "alpine"
     execute_commands:
     - "yarn install"
-    - "yarn test --watchAll=false --coverage -- -Dsonar.login=$SONAR_TOKEN \\"
+    - "yarn test --watchAll=false --coverage -Dsonar.login=$SONAR_TOKEN \\"
     - " -Dsonar.projectKey=$SONAR_PROJECT_KEY  -Dsonar.organization=$SONAR_ORGANIZATION"
     cached_dirs:
     - "/buddy/sonar/.scannerwork"
